@@ -15,5 +15,12 @@ setup(
     description='Django app to create GitHub issues from emails, with attachments.',
     author='David Klement',
     author_email='d.klement@compliance.one',
-    url='https://github.com/yourusername/django-email-to-github-issues',
+    url='https://github.com/confdnt/django-email-to-github-issues',
+    classifiers=[
+        'Framework :: Django',
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.9',
 )
