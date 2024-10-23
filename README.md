@@ -30,6 +30,7 @@ A reusable Django app that creates GitHub issues from incoming emails and can al
     EMAIL_PORT_E2GH=993
     EMAIL_USERNAME_E2GH=your_email@example.com
     EMAIL_PASSWORD_E2GH=your_email_password
+    DEFAULT_EMAIL_E2GH=noreply@yourdomain.com
 
 ### 4.	Run migrations:
 
