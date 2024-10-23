@@ -24,12 +24,12 @@ A reusable Django app that creates GitHub issues from incoming emails and can al
 
 ### 3. Set up the necessary environment variables:
 
-    GITHUB_TOKEN=your_github_token
-    GITHUB_REPO=your_github_username/your_repo
-    EMAIL_HOST=imap.your-email-provider.com
-    EMAIL_PORT=993
-    EMAIL_USERNAME=your_email@example.com
-    EMAIL_PASSWORD=your_email_password
+    GITHUB_TOKEN_E2GH=your_github_token
+    GITHUB_REPO_E2GH=your_github_username/your_repo
+    EMAIL_HOST_E2GH=imap.your-email-provider.com
+    EMAIL_PORT_E2GH=993
+    EMAIL_USERNAME_E2GH=your_email@example.com
+    EMAIL_PASSWORD_E2GH=your_email_password
 
 ### 4.	Run migrations:
 

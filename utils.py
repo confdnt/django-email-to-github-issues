@@ -3,8 +3,8 @@ from django.core.mail import send_mail
 from .models import GitHubIssueReporter
 import os
 
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-GITHUB_REPO = os.getenv('GITHUB_REPO')
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN_E2GH')
+GITHUB_REPO = os.getenv('GITHUB_REPO_E2GH')
 
 def create_github_issue(subject, body, attachments):
     headers = {

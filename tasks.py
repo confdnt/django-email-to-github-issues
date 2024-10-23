@@ -12,10 +12,10 @@ from .utils import create_github_issue, reopen_github_issue, extract_attachments
 @shared_task
 def fetch_and_create_github_issue():
     # Email server settings from environment variables
-    EMAIL_HOST = os.getenv('EMAIL_HOST')
-    EMAIL_PORT = os.getenv('EMAIL_PORT')
-    EMAIL_USERNAME = os.getenv('EMAIL_USERNAME')
-    EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
+    EMAIL_HOST = os.getenv('EMAIL_HOST_E2GH')
+    EMAIL_PORT = os.getenv('EMAIL_PORT_E2GH')
+    EMAIL_USERNAME = os.getenv('EMAIL_USERNAME_E2GH')
+    EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD_E2GH')
 
     # Connect to the email server
     mail = imaplib.IMAP4_SSL(EMAIL_HOST, EMAIL_PORT)
