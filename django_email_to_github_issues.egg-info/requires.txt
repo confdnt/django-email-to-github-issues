@@ -1,0 +1,4 @@
+Django>=3.2
+celery>=5.0
+requests
+imaplib2

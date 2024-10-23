@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-email-to-github-issues
+Version: 1.0.0
+Summary: Django app to create GitHub issues from emails, with attachments.
+Home-page: https://github.com/yourusername/django-email-to-github-issues
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Requires-Dist: Django>=3.2
+Requires-Dist: celery>=5.0
+Requires-Dist: requests
+Requires-Dist: imaplib2
